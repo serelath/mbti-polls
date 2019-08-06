@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Lato&display=swap");
+@import "_variables.scss";
+@import "_mixins.scss";
+
+nav {
+    .navbar-brand {
+        font-family: $headerFont;
+        font-size: 2.5rem;
+        color: $black !important;
+    }
+    ul {
+        li {
+            font-size: 1.2rem;
+            &:first-child {
+                background-color: $orange;
+            }
+            &:nth-child(2) {
+                background-color: $red;
+            }
+            &:nth-child(3) {
+                background-color: $green;
+            }
+            a {
+                color: $black !important;
+            }
+            
+        }
+    }
+}
+
